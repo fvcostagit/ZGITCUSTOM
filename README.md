@@ -1,0 +1,2 @@
+# ZGITCUSTOM
+Poc for AbapGit
