@@ -70,9 +70,21 @@ CLASS flight IMPLEMENTATION.
     DATA: wa TYPE spfli.
 
     LOOP AT mytablespfli INTO wa.
-      WRITE: / wa-carrid, 5 wa-connid, 10 wa-countryfr, 14 wa-cityfrom, 36 wa-airpfrom, 40 wa-countryto,
-      44 wa-cityto, 66 wa-airpto, 69 wa-fltime, 77 wa-deptime, 87 wa-arrtime, 97 wa-distance, 107 wa-distid,
-      110 wa-fltype, 115 wa-period.
+      WRITE: / wa-carrid,
+             5 wa-connid,
+            10 wa-countryfr,
+            14 wa-cityfrom,
+            36 wa-airpfrom,
+            40 wa-countryto,
+            44 wa-cityto,
+            66 wa-airpto,
+            69 wa-fltime,
+            77 wa-deptime,
+            87 wa-arrtime,
+            97 wa-distance,
+           107 wa-distid,
+           110 wa-fltype,
+           115 wa-period.
     ENDLOOP.
 
     ULINE.
